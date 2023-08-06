@@ -1,0 +1,124 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} 
+textarea {overflow:auto;}
+
+/***** RESET *****/
+
+body { overflow-x: hidden;}
+
+.slider { position:relative; width:1366px; height:502px; border:1px solid #ccc; margin:auto; overflow:hidden; z-index:1; }
+.slider-content { width:500%; position:absolute; left:0; animation:slide 15s infinite;}
+.slider-content:hover { animation-play-state:paused; }
+.slider-item { width:20%; float:left;}
+
+@keyframes slide{
+	
+	0%{
+		transform:translateX(0px);
+	 }
+	
+     10%{
+		transform:translateX(-1366px);
+	 }
+	 20%{
+		transform:translateX(-1366px);
+	 }
+	 30%{
+		transform:translateX(-2732px);
+	 }
+	 40%{
+		transform:translateX(-2732px);
+	 }
+	 50%{
+		transform:translateX(0);
+	 }
+	 
+}
+
+
+.menu{ width:100%; height:107px;  margin:0 auto;   }
+.menu ul{ margin:0; padding:0; list-style-type:none;}
+.menu ul li{ float:left;}
+.menu ul li a{ height:60px; display:block; text-indent:-2000px; text-decoration:none; }
+.menu ul li#logo a{background:url(images/logosu.png) center no-repeat; width:130px; height:107px; opacity:none; 
+margin:0 0 0 50px;} 
+.menu ul li#arama a{ background:url(images/aramaa.png) no-repeat; width:589px; height:48px; margin:30px auto 20px 140px;}
+.menu ul li#favori a {background:url(images/1231.PNG)  no-repeat; width:67px; height:56px; margin:25px auto 30px 150px; }
+.menu ul li#hesap a {background:url(images/1232.PNG)  no-repeat; width:68px; height:56px; margin:25px auto 30px 15px;}
+.menu ul li#siparis a {background:url(images/1233.PNG) no-repeat; width:66px; height:56px; margin:25px auto 30px 10px;}
+ 
+.menu ul li#favori a:hover {opacity:0.5;}
+.menu ul li#hesap a:hover {opacity:0.5;}
+.menu ul li#siparis a:hover {opacity:0.5;}
+
+
+.ustcizgi {border-top:1px solid #ccc; width:100%;}
+.altcizgi {border-top:1px solid #ccc; width:100%; margin:-20px 0 0 0;}
+
+.menu2 {width:100%; height:70px; margin:0 auto; }
+.menu2 ul {margin:0; padding:0; list-style-type:none;}
+.menu2 ul li {float:left; position:relative;}
+.menu2 ul li a {display:block; color:#000; height:65px; text-indent:-2000px; }
+.menu2 ul li#kampanyalar a { background:url(images/menu2/0.PNG) no-repeat; width:119px; height:38px; margin:0 0 0 280px}
+.menu2 ul li#kadin a { background:url(images/menu2/1.PNG) no-repeat; width:63px; height:38px; margin:0 0 0 10px;}
+.menu2 ul li#erkek a { background:url(images/menu2/2.PNG) no-repeat; width:54px; height:38px; margin:0 0 0 10px;}
+.menu2 ul li#kozmetik a { background:url(images/menu2/3.PNG) no-repeat; width:82px; height:38px; margin:0 0 0 10px;}
+.menu2 ul li#saataksesuar a { background:url(images/menu2/5.PNG) no-repeat; width:140px; height:38px; margin:0 0 0 10px;}
+.menu2 ul li#ayakkabi a { background:url(images/menu2/canta.png) no-repeat; width:145px; height:30px; margin:0 0 0 4px; }
+.menu2 ul li#markalar a { background:url(images/menu2/6.PNG) no-repeat; width:97px; height:38px; margin:0 0 0 10px;}
+.menu2 ul li a:hover {opacity:0.5;}
+
+
+
+.reklam1 { background:url(images/reklam/0.PNG) no-repeat; width:769px; height:169px; font:bold 15px tahoma; color:#006;  float:left; margin:70px 0 0 25px; }
+.reklam2 { background:url(images/reklam/7.PNG) no-repeat; width:361px; height:267px; float:left; margin:50px 0 0 150px;}
+.reklam3 { background:url(images/reklam/5.PNG) no-repeat; width:762px; height:193px;  font:bold 15px tahoma; color:#006; float:left; margin:0 0 0 25px;}
+.reklam4 { background:url(images/reklam/4.PNG) no-repeat; width:367px; height:450px; float:left; margin:50px 0 0 150px;}
+.reklam5 { background:url(images/reklam/3.PNG) no-repeat; width:765px; height:195px; font:bold 15px tahoma; color:#006; float:left; margin:-230px 0 0 25px;}
+.reklam6 { background:url(images/reklam/4545.png) no-repeat; width:762px; height:193px; font:bold 15px tahoma; color:#006; float:left; margin:20px 0 0 25px;}
+.reklam7 { background:url(images/reklam/9.png) no-repeat; width:372px; height:280px;   float:left; margin:70px 0 0 150px;}
+.reklam8 { background:url(images/reklam/kırk.png) no-repeat; width:764px; height:257px; font:bold 15px tahoma; color:#006; float:left; margin:-30px 0 0 25px;}
+.reklam9 { background:url(images/reklam/3636.png) no-repeat; width:371px; height:194px; float:left; margin:70px 0 0 150px;}
+
+.altk {border-top:1px solid #ccc; width:100%; float:left; margin:30px 0 0 0;}
+
+.reklam10{ background:url(images/reklam/6.png) no-repeat; width:373px; height:192px; font:bold 13px tahoma; color:#036;  float:left; margin:70px 0 0 25px;}
+.reklam11{ background:url(images/reklam/11.png) no-repeat; width:306px; height:197px; font:bold 13px tahoma; color:#036; float:left; margin:70px 0 0 150px;}
+.reklam12{ background:url(images/reklam/12.png) no-repeat; width:295px; height:192px; font:bold 13px tahoma; color:#036; float:left; margin:70px 0 0 150px;}
+
+.alt2 {background:url(images/essek.png) no-repeat;  margin:50px auto -50px auto;  width:100%; height:480px; clear:both; float:left; cursor:pointer;}
+
+
+
+.anahepsi {width:100%; height:auto; background:url(images/resim/y%C4%B1ldz.jpg) ; float:left;} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
